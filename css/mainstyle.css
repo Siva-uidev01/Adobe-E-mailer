@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face{
+	font-family: myfont;
+	src: url("../fonts/Mulish-VariableFont_wght.ttf")
+}
+body{
+	background-color: #C8C1C1;
+}
+.wrapper{
+	width: 1024px;
+	margin: 0 auto;
+	overflow-x: hidden;
+	background-color: #FFFFFF;
+	position: relative;
+}
+.header{
+	width: 1024px;
+	height:80px;
+	background-color:#FFFFFF;
+	display: flex;
+	 align-items: center;	
+}
+.header h3{
+	font-family: myfont;
+	margin-left: 20px;
+	margin-top: 5px;
+	font-size: 28px;
+	color: #737373;
+	font-weight: bolder;
+}
+.banner1{
+	width: 1024px;
+	height: 576px;
+}
+.content1 {
+	width: 1024px;
+	height: 544px;
+}
+.content1 h1{
+	font-family: myfont;
+	margin-left: 80px;
+	margin-top: 50px;
+	font-size: 90px;
+}
+.content1 p{
+	font-family: myfont;
+	margin-left: 80px;
+	font-size: 35px;
+	font-weight:lighter;
+	margin-top: 20px;
+	margin-right: 70px;
+	color: #656565;
+}
+.content1 button{
+	width: 320px;
+	height: 70px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 80px;
+    border: none;
+	margin-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #2E82FF ;
+	border-radius: 50px;
+	transition: transform 0.3s ease;
+}
+.content1 button .explore{
+	color: aliceblue;
+	font-size: 24px;
+	
+}
+.banner2{
+	width: 1024;
+	height: 725px;
+
+
+}
+.content2 h2{
+	font-family: myfont;
+	margin-top: 50px;
+	margin-left: 80px;
+	font-size: 36px;
+}
+.content2 h4{
+	font-family: myfont;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-size: 30px;
+	font-weight:lighter;
+	margin-right: 80px;
+	
+}
+.content2 h1{
+	font-family: myfont;
+	margin-top: 20px;
+	margin-left: 80px;
+	font-size: 24px;
+	color: #2E82FF;
+}
+.content2 img{
+	margin-left: 80px;
+	margin-top: 30px;
+}
+  .content2 .inside{
+        position: absolute;
+	  font-family: myfont;
+        top: 2300px;
+        left: 10px;
+        width: 100%;
+       margin-left: 125px;
+	  font-size: 28px;
+	  font-weight: normal;
+        z-index: 1;
+	  color: #FFFFFF;
+	 
+}
+.content2 button{
+	font-family: myfont;
+	
+	   position: absolute;
+       top: 2524px;
+       left: 10px;
+       margin-left: 125px;
+	   width: 250px;
+	   height: 50px;
+        z-index: 1;
+	background-color: transparent;
+	border-color: #FFFFFF;
+	border-radius: 50px;
+	border-style: solid;
+	
+}
+.content2 .start h5{
+	color: aqua;
+	font-size: 30px;
+	
+}
+.banner3{
+	width: 1024px;
+	height:59px;
+	margin-top: 50px;
+	position: relative;
+}
+.content3{
+	width: 1024px;
+	height: 800px;
+	
+}
+.content3 img{
+	margin-left: 80px;
+	margin-top: 40px;
+}
+.content3 ul{
+
+	display: flex;
+	flex-direction: row;
+	grid-gap: 40px;
+	position: absolute;
+	top: 2876px;
+	right: 80px;
+}
+.content3 ul li{
+	text-decoration: none;
+	list-style-type: none;
+    font-size: 30px;
+	opacity: 70%;
+}
+
+.content3 p{
+	font-family: myfont;
+	margin-left: 80px;
+	margin-right: 80px;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+/*--------hover effect----------------------*/
+.content1 button:hover{
+	transform: scale(1.1);
+}
+.content3 ul li:hover {
+	opacity: 100%;
+	
+}
